@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter,Routes,Route,Router} from 'react-router-dom';
+import Urlnotfound from './component/Urlnotfound'
+import User from './component/User'
+import MainPage from './MainPage'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainPage/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

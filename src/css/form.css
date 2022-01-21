@@ -1,0 +1,14 @@
+.form-site{
+    padding: 30px 30%;
+    left : 0px;
+    align-items: center;
+    width: 100%;
+}
+.page-not-found{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+.table{
+    padding: 0px 60px;
+}
